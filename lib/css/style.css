@@ -1,0 +1,39 @@
+body{
+    background-color:black;
+}
+
+#container{
+    background-color:#1f1e1e;
+    color:white;
+}
+
+#picture img{
+    align-content: center;
+}
+
+#contact{
+    background-color:rgb(153, 153, 153);     
+    display: block;
+    border-style: solid;
+    border-width:0.5px;
+    border-color:black;
+}
+
+#contact img{
+    display: inline;
+    height:25px;
+    widows: 25px;
+}
+
+#interests{
+    border-style: solid;
+    border-width:0.5px;
+    border-color:black;
+    background-color:rgb(153, 153, 153); 
+    display: block;
+}
+
+#head{
+    text-align:center;
+    background-color:#262626;
+}
