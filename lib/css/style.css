@@ -2,14 +2,23 @@ body{
     background-color:black;
 }
 
+.flex_center{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex_left{
+    display:flex;
+    flex-direction:column;
+    align-items:right;
+}
+
 #container{
     background-color:#1f1e1e;
     color:white;
 }
 
-#picture img{
-    align-content: center;
-}
 
 #contact{
     background-color:rgb(153, 153, 153);     
@@ -17,6 +26,7 @@ body{
     border-style: solid;
     border-width:0.5px;
     border-color:black;
+    width:200px;
 }
 
 #contact img{
@@ -31,6 +41,36 @@ body{
     border-color:black;
     background-color:rgb(153, 153, 153); 
     display: block;
+    width: 200px;
+
+}
+
+#music{
+    background-color:rgb(153, 153, 153);     
+    display: block;
+    border-style: solid;
+    border-width:0.5px;
+    border-color:black;
+    width:100%;
+    font-size:20px;
+    text-align: center;
+    /* If you don't want the music div to be centerd as it appears right now on your page, remove the next line. :) */
+    /* You should also give a taco for this quick fix.   :))))  -Chase */
+    
+}
+
+#playlist{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    text-align: center;
+    /* display:flex; */
+    
+
+}
+
+#soundcloud{
+    display: inline;
 }
 
 #head{
